@@ -67,7 +67,8 @@ adicionar.addEventListener('click', function() {
 renderizarlista()
 
 remover.addEventListener('click', function() {
-    tarefas = []
+    localStorage.clear();
+    tarefas = [];
     salvar()
     renderizarlista()
 })
